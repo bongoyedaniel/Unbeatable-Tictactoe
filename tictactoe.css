@@ -1,0 +1,57 @@
+
+body {
+	margin:0px;
+	background:#4444aa;
+}
+
+h1{
+	color:white;
+	text-align:center;
+}
+
+h3 {
+	color:white;
+	text-align:center;
+}
+
+#board {
+	border-radius:10px;
+	background:white;
+	width:300px;
+	height:300px;
+	position:absolute;
+	top:calc(50% - 150px);
+	left:calc(50% - 150px);
+}
+
+.cell {
+	border-radius:10px;
+	background:orange;
+	width:90px;
+	height:90px;
+	float:left;
+	margin:5px;
+}
+
+.cell h1{
+	scale:2;
+	position:relative;
+}
+.cell:active {
+	background:green;
+}
+
+.cellholder {
+	width:100%;
+	float:none;
+}
+
+button {
+	width:100px;
+	height:50px;
+	border-radius:15px;
+	border:0;
+	position:absolute;
+	bottom:100px;
+	left:calc(50% - 50px);
+}
