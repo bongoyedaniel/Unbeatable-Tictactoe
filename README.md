@@ -1,5 +1,5 @@
 # Unbeatable-Tictactoe
 Unbeatable tictactoe
 
-## Libe Play
+## Live Play
 https://bongoyedaniel.github.io/Unbeatable-Tictactoe/
